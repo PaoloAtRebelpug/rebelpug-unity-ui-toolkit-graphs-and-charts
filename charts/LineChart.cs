@@ -111,6 +111,9 @@ namespace rebelpug_unity_ui_toolkit_graphs_and_charts.charts
         #endregion
 
         #region Update Graph
+        /*
+         * Here pass a list of points and labels to be used in the graph
+         */
         public void UpdateGraph(List<Vector2> points, List<string> labels)
         {
             if (!_isSetup)

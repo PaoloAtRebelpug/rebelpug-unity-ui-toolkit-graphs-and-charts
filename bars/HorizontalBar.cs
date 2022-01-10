@@ -30,6 +30,11 @@ namespace rebelpug_unity_ui_toolkit_graphs_and_charts.bars
             UpdateBarPosition(position);
         }
 
+        /*
+         * EXAMPLE:
+         * var bar = this.Q<HorizontalBar>("horizontal-bar")  
+         * bar.UpdateBarPosition(50);  
+         */
         public void UpdateBarPosition(float position)
         {
             _bar.style.width = new StyleLength(new Length(position, LengthUnit.Percent));
