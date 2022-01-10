@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using BehaviorDesigner.Runtime.Tasks.Unity.UnityLight;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.Scripting;
 using UnityEngine.UIElements;
 
-namespace ui.Generics
+namespace rebelpug_unity_ui_toolkit_graphs_and_charts.charts
 {
     public class LineChart : VisualElement
     {

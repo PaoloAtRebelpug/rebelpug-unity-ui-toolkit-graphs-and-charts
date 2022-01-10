@@ -1,10 +1,8 @@
-﻿using BehaviorDesigner.Runtime.Tasks.Unity.UnityLight;
-using UnityEngine;
-using UnityEngine.Events;
+﻿using UnityEngine;
 using UnityEngine.Scripting;
 using UnityEngine.UIElements;
 
-namespace ui.Generics
+namespace rebelpug_unity_ui_toolkit_graphs_and_charts.bars
 {
     public class HorizontalBar : VisualElement
     {
